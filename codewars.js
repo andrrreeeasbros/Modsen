@@ -192,3 +192,11 @@
 
 
 // console.log(decodeMorse('.... . -.--   .--- ..- -.. .')); 
+
+// 6 kyu
+// Duplicate Arguments
+
+// function solution(...args) {
+//   const uniqueValues = new Set(args);
+//   return uniqueValues.size !== args.length;
+// }
