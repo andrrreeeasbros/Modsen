@@ -169,3 +169,26 @@
 //console.log(shortestStepsToNum(3));
 //console.log(shortestStepsToNum(12));
 //console.log(shortestStepsToNum(16));
+
+// 6 kyu
+// Decode the Morse code
+
+// function decodeMorse(morseCode) {
+
+//   morseCode = morseCode.trim();
+
+
+//   var words = morseCode.split('   ');
+
+//   var decodedMessage = words.map(word => {
+
+//     var letters = word.split(' ');
+
+//     return letters.map(letter => MORSE_CODE[letter]).join('');
+//   }).join(' '); 
+
+//   return decodedMessage;
+// }
+
+
+// console.log(decodeMorse('.... . -.--   .--- ..- -.. .')); 
