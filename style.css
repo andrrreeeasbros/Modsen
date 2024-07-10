@@ -115,21 +115,26 @@
     padding: 10px 40px;
 }
 
-.img_position-two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.position-two {
+  font-family: var(--font-1);
+  font-size: var(--h1);
+  font-weight: bold;
+  line-height: 0.5;
+  text-shadow: var(--shadow-1);
 }
-
+main {
+  background-color: var(--color-white-100);
+  padding: 20px;
+  text-align: center;
+  color: var(--color-dark-100);
+}
 .green-text {
-    font-family: var(--font-2);
-    font-size: var(--h6);
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: var(--ls);
-    text-align: center;
-    color: var(--color-green-100);
+  color: var(--color-green-100);
+  font-size: var(--sub);
+  font-weight: bold;
+  letter-spacing: var(--ls);
+  line-height: 125%;
+  font-family: var(--font-2);
 }
 
 .custom-class {
@@ -142,13 +147,17 @@
 }
 
 .custom-class-two {
-    font-family: var(--font-2);
-    font-weight: 400;
-    font-size: var(--h4);
-    line-height: 25px;
-    text-align: center;
-    color: var(--color-dark-100);
+  font-family: var(--font-2);
+  font-size: var(--h5);
+  font-weight: normal;
+  line-height: 25px;
+  color: var(--color-dark-100);
+  width: 404px;
+  height: 60px;
+  text-align: center;
+  margin: 10px auto;
 }
+
 
 .button-two {
     background-color: var(--color-dark-100);
@@ -173,8 +182,6 @@
     text-align: center;
     margin: 0;
 }
-
-
 
 .center_type {
     text-align: center;
@@ -240,6 +247,23 @@
 .teamCards {
     display: grid;
     gap: 30px;
+}
+
+.team {
+  color: var(--color-green-100);
+  font-size: var(--sub);
+  font-weight: bold;
+  letter-spacing: var(--ls);
+  line-height: 125%;
+  font-family: var(--font-2);
+}
+
+.one-black {
+  font-family: var(--font-1);
+  font-size: var(--h1);
+  font-weight: bold;
+  line-height: 0.3;
+  white-space: nowrap;
 }
 
 .cardsGrid {
@@ -343,8 +367,9 @@
   }
 }
 
-
 @media (min-width: 1025px) {
 }
+
+
 
 
