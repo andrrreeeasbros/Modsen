@@ -200,3 +200,50 @@
 //   const uniqueValues = new Set(args);
 //   return uniqueValues.size !== args.length;
 // }
+
+// 6 kyu
+// Find the missing letter
+// function findMissingLetter(array) {
+//   let firstCharCode = array[0].charCodeAt(0);
+//   for (let i = 0; i < array.length; i++) {
+ 
+//     if (array[i].charCodeAt(0) !== firstCharCode + i) {
+//       // Return the missing letter
+//       return String.fromCharCode(firstCharCode + i);
+//     }
+//   }
+//   return '';
+// }
+// console.log(findMissingLetter(['a','b','c','d','f'])); 
+// console.log(findMissingLetter(['O','Q','R','S'])); 
+
+// 6 kyu
+// Find the unique number
+// function findUniq(arr) {
+
+//   arr.sort((a, b) => a - b);
+  
+
+//   return arr[0] === arr[1] ? arr[arr.length - 1] : arr[0];
+// }
+
+
+// console.log(findUniq([1, 1, 1, 2, 1, 1])); 
+// console.log(findUniq([0, 0, 0.55, 0, 0])); 
+
+// 6 kyu
+// Multiplication table
+// function multiplicationTable(size) {
+//   let table = [];
+//   for (let i = 1; i <= size; i++) {
+//     // Create an empty array for the current row
+//     let row = [];
+//     for (let j = 1; j <= size; j++) {
+//       // Calculate the value for the current cell and add it to the row
+//       row.push(i * j);
+//     }
+//     table.push(row);
+//   }
+//   return table;
+// }
+// console.log(multiplicationTable(3)); 
